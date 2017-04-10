@@ -1,0 +1,1407 @@
+[
+        {
+            "name":"salwar1",
+            "model":"sal1",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar2",
+            "model":"sal2",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar3",
+            "model":"sal3",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar4",
+            "model":"sal4",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"5",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar5",
+            "model":"sal5",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"2",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar6",
+            "model":"sal6",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar7",
+            "model":"sal7",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar8",
+            "model":"sal8",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar9",
+            "model":"sal 1",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar10",
+            "model":"sal10",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar11",
+            "model":"sal11",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar12",
+            "model":"sal 12",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar13",
+            "model":"sal 13",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti1",
+            "model":"ku1",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti2",
+            "model":"ku2",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti3",
+            "model":"ku3",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti4",
+            "model":"ku4",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"5",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti5",
+            "model":"ku5",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"2",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti6",
+            "model":"ku6",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti7",
+            "model":"ku7",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti8",
+            "model":"ku8",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti9",
+            "model":"ku 1",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti10",
+            "model":"ku10",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti11",
+            "model":"ku11",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti12",
+            "model":"ku 12",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti13",
+            "model":"ku 13",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti14",
+            "model":"ku 14",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti15",
+            "model":"ku 15",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti16",
+            "model":"ku 16",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti17",
+            "model":"ku 17",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti18",
+            "model":"ku 18",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti19",
+            "model":"ku 19",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti20",
+            "model":"ku21",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti21",
+            "model":"ku21",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti22",
+            "model":"ku22",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti23",
+            "model":"ku23",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti24",
+            "model":"ku24",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti25",
+            "model":"ku25",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti26",
+            "model":"ku26",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti27",
+            "model":"ku27",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti28",
+            "model":"ku28",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti29",
+            "model":"ku29",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti30",
+            "model":"ku30",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti31",
+            "model":"ku32",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti33",
+            "model":"ku33",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti34",
+            "model":"ku34",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti35",
+            "model":"ku35",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti36",
+            "model":"ku36",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti37",
+            "model":"ku37",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti38",
+            "model":"ku38",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti39",
+            "model":"ku39",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"kurti40",
+            "model":"ku40",
+            "type":"kurti",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar14",
+            "model":"sal 14",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar15",
+            "model":"sal 15",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar16",
+            "model":"sal 16",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar17",
+            "model":"sal 17",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar18",
+            "model":"sal 18",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar19",
+            "model":"sal 19",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar20",
+            "model":"sal21",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar21",
+            "model":"sal21",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar22",
+            "model":"sal22",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar23",
+            "model":"sal23",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar24",
+            "model":"sal24",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar25",
+            "model":"sal25",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar26",
+            "model":"sal26",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar27",
+            "model":"sal27",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar28",
+            "model":"sal28",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar29",
+            "model":"sal29",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar30",
+            "model":"sal30",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar31",
+            "model":"sal32",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar33",
+            "model":"sal33",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar34",
+            "model":"sal34",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar35",
+            "model":"sal35",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar36",
+            "model":"sal36",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar37",
+            "model":"sal37",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar38",
+            "model":"sal38",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar39",
+            "model":"sal39",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"salwar40",
+            "model":"sal40",
+            "type":"salwar",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga1",
+            "model":"lehe1",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga2",
+            "model":"lehe2",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga3",
+            "model":"lehe3",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga4",
+            "model":"lehe4",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"5",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga5",
+            "model":"lehe5",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"2",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga6",
+            "model":"lehe6",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga7",
+            "model":"lehe7",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga8",
+            "model":"lehe8",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga9",
+            "model":"lehe 1",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga10",
+            "model":"lehe10",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga11",
+            "model":"lehe11",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga12",
+            "model":"lehe 12",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga13",
+            "model":"lehe 13",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga14",
+            "model":"lehe 14",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga15",
+            "model":"lehe 15",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga16",
+            "model":"lehe 16",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga17",
+            "model":"lehe 17",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga18",
+            "model":"lehe 18",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga19",
+            "model":"lehe 19",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga20",
+            "model":"lehe21",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga21",
+            "model":"lehe21",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga22",
+            "model":"lehe22",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga23",
+            "model":"lehe23",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga24",
+            "model":"lehe24",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga25",
+            "model":"lehe25",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga26",
+            "model":"lehe26",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga27",
+            "model":"lehe27",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga28",
+            "model":"lehe28",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga29",
+            "model":"lehe29",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga30",
+            "model":"lehe30",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga31",
+            "model":"lehe32",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga33",
+            "model":"lehe33",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga34",
+            "model":"lehe34",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga35",
+            "model":"lehe35",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga36",
+            "model":"lehe36",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga37",
+            "model":"lehe37",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga38",
+            "model":"lehe38",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga39",
+            "model":"lehe39",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"lehenga40",
+            "model":"lehe40",
+            "type":"lehenga",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees1",
+            "model":"sare1",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees2",
+            "model":"sare2",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees3",
+            "model":"sare3",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees4",
+            "model":"sare4",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"5",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees5",
+            "model":"sare5",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"2",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees6",
+            "model":"sare6",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees7",
+            "model":"sare7",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees8",
+            "model":"sare8",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees9",
+            "model":"sare 1",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees10",
+            "model":"sare10",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees11",
+            "model":"sare11",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees12",
+            "model":"sare 12",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees13",
+            "model":"sare 13",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees14",
+            "model":"sare 14",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees15",
+            "model":"sare 15",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees16",
+            "model":"sare 16",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees17",
+            "model":"sare 17",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees18",
+            "model":"sare 18",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees19",
+            "model":"sare 19",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees20",
+            "model":"sare21",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees21",
+            "model":"sare21",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees22",
+            "model":"sare22",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees23",
+            "model":"sare23",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees24",
+            "model":"sare24",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees25",
+            "model":"sare25",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees26",
+            "model":"sare26",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees27",
+            "model":"sare27",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees28",
+            "model":"sare28",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees29",
+            "model":"sare29",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees30",
+            "model":"sare30",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees31",
+            "model":"sare32",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees33",
+            "model":"sare33",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees34",
+            "model":"sare34",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees35",
+            "model":"sare35",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees36",
+            "model":"sare36",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees37",
+            "model":"sare37",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees38",
+            "model":"sare38",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees39",
+            "model":"sare39",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        },
+        {
+            "name":"sarees40",
+            "model":"sare40",
+            "type":"sarees",
+            "price_old":"675",
+            "price_new":"685",
+            "sale_percentage":"1",
+            "image": "http://images.textilebuzz.com/cache/cropimg/61572caf-c415-40bf-ab55-64ea6a6b7365-thumb-700x820.jpg"
+        }
+        
+]

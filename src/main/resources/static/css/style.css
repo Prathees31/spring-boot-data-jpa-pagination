@@ -1,0 +1,600 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+body {
+    background-color: rgba(245, 245, 245, 0.23) !important;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Website Styles Start
+   ========================================================================== */
+
+* a:hover, a:focus  {
+     text-decoration: none !important;
+     text-shadow: 0 0 3px #c1bbbb, 0 0 5px #171919;
+}
+* a{
+    color: #9fa3a7 !important;
+    text-decoration: none !important;
+}
+.top-header {
+    background-color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    border-bottom: solid #d2dada 1px;
+}
+.middle-header {
+    background-color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: solid #d2dada 1px;
+}
+.bottom-header {
+    background-color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: solid #d2dada 1px;
+    
+}
+.nav-menu {
+    background-color: #fff !important;
+    border: none !important;
+
+}
+.img-middle {
+    margin-left: 85px;
+}
+.no-border {
+    border: none !important;
+        height: 38px !important;
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 0 8px #fff !important;
+    box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff !important;
+}
+.no-border:focus {
+    border-color: #fff !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px #fff, 0 0 0px #fff !important;
+    box-shadow: inset 0 0px 0px #fff, 0 0 0px #fff !important;
+}
+.left-searchbar {
+    margin-top: 18px;
+    border: 1px solid #d4cece;
+    border-radius: 19px;
+}
+.site-breadcrumb {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 2px 40px 2px 40px !important;
+
+    
+}
+.breadcrumb > li + li:before {
+    content: "»" !important;
+}
+.site-breadcrumb * a {
+    color: #333745 !important;
+}
+.site-breadcrumb * a:hover a:focus {
+    color: rgb(211,201,170) !important;
+}
+.content-header {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 5px 0px 5px 0px ;
+    border-radius: 7px;
+    border: 1px solid rgba(162, 162, 162, 0.24);
+    background-color: #f5f5f5 ;
+}
+.head-margin {
+        margin-left: 2px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+.content-info {
+    margin-left: 2px;
+}
+.product-filter {
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    border: 1px solid rgba(162, 162, 162, 0.24);
+}
+.product-filter{
+    text-transform: uppercase;
+}
+.product-filter-row {
+    margin-top: 13px !important;
+    margin-bottom: -8px !important;
+    margin-left: -11px !important;
+}
+.icon-lg{
+    font-size: 20px;
+}
+/*.product-filter-left {
+    margin-top: 13px !important;
+    padding-left: 22px !important;
+}
+.product-filter-right {
+    margin-top: 13px !important;
+}*/
+.select-filter:focus{
+    border-color: rgba(128, 130, 132, 0.61) !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(40, 43, 45, 0.35)!important;
+
+}
+.select-filter {
+    height: 30px !important;
+    background-color: #f5f5f5 !important;
+    border-radius: 1px !important;
+}
+.product-caption {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    color: black !important;
+    font-weight: lighter;
+
+}
+.product-model {
+    margin-top: 8px !important;
+    margin-bottom: 0px !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    font-weight: lighter;
+    text-align: center !important;
+    color: black !important;
+}
+.price {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.price-new {
+    margin-bottom: 0px;
+    margin-top: 3px;
+    color: green;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.price-old {
+    margin-bottom: 0px;
+    margin-top: 3px;
+    color: red;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+.cart-button {
+    text-transform: uppercase;
+    color: yellow !important;
+    background: #000 !important;
+    border-radius: 16px !important;
+    padding: 6px 12px !important;
+
+}
+.cart-symbol {
+    color: #fff;
+    font-size: 16px;
+
+}
+.upcoming_image {
+    position: absolute;
+    top: 10px !important;
+    left: 0px;
+    margin-left: 36px !important;
+    width: 45px;
+}
+.product {
+    border-width: 1px;
+    margin-top: 10px !important;
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+.product:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+    transition: all 0.3s;
+}
+.product > span {
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    display: block;
+    transition: opacity .2s;
+}
+.sale-percentage {
+    top: 5px;
+    right: 23px;
+    background: #EA2E49;
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.result-page {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.product-pagination {
+    background-color: #f5f5f5;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+.pagination-cs {
+    margin-bottom: 5px !important;
+    margin-top: 7px !important;
+}
+.pagination > li >a {
+    border-radius: 50% !important;
+}
+.pagination > .active > a ,.pagination > .active > a:hover {
+    color: #fff !important;
+    cursor: default !important;
+    background-color: #e8bd1d !important;
+    border-color: #e1e414 !important;
+}
+.pagination > li >a:hover {
+  
+    background-color: #e8bd1d !important;
+    border-color: #e1e414 !important;
+    color: #000 !important;
+    font-weight: bolder !important;     
+}
+.footer-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #d2dada;
+    border-left: 0px;
+    border-right: 0px;
+}
+.social-fb {
+  letter-spacing: 25px;
+}
+.social-gg {
+  letter-spacing: 25px;
+}
+.social-tw {
+  letter-spacing: 25px;
+}
+.social-pin {
+  letter-spacing: 25px;
+}
+.social-yt {
+    letter-spacing: 0px;
+}
+.social {
+    padding-top: 10px !important;
+    padding-right: 25px !important;
+}
+.copy-right {
+    padding-top: 10px !important;
+    padding-left: 25px !important;
+}
+.result {
+    margin-top: 10px !important;
+}
+.product-image {
+    padding: 5px !important;
+}
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+    z-index: 2;
+    display: block;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+  
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: rgb(238, 238, 238);
+}
+.activePageNum {
+    background-color: yellow !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ 
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster*/
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
