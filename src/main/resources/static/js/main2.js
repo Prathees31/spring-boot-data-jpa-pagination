@@ -6,7 +6,7 @@ var paginationHtml="";
 var	pageNum= 0;
 var sta="";
 var limit="";
-var currentLink="";
+
 /*$.get('http://localhost:8080/api/products', function(data) {
 	  
 	  products = data;
@@ -98,39 +98,41 @@ function goFun(sta,limit) {
            $('#pagination').html(paginationHtml);
            */
             
-	 		if(products.first == false && products.last == false){
-	 			$('#pagination').empty();
-        	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
-                   
-                   for(currentLink = 0; numberOfPages > currentLink; currentLink++){
-                   paginationHtml += '<li><a class="pageNumber"  href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
-                  
-                   }
-                  paginationHtml += "<li class='lastPage'><a href='javascript:next();'>&gt;</a></li>";
-                 $('#pagination').append(paginationHtml);
-        	   
-           }else
-	 		if(products.first == true && products.last == false){
-        	   
-     	      for(currentLink = 0; numberOfPages > currentLink; currentLink++){
-                paginationHtml += '<li><a class="pageNumber"  href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+	 		
+	 	if(products.first == true && products.last == false) {
+	 		  
+     	      for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                paginationHtml += '<li><a class="pageNumber"  value='+ currentLink+' href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
      	      }
-     	    
-               paginationHtml += "<li class='lastPage'><a href='javascript:next();'>&gt;</a></li>";
-             
-              $('#pagination').append(paginationHtml);
+     	      
+     	    paginationHtml += "<li class='lastPage'><a href='javascript:next();'>&gt;</a></li>";
               
-        }else 
+              $('#pagination').append(paginationHtml);
+              $('#pagination .pageNumber:first').addClass('active');
+        }  else 
          if(products.last == true && products.first == false){
-         
+        
      	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                 
-                for(currentLink = 0; numberOfPages > currentLink; currentLink++){
-                paginationHtml += '<li><a class="pageNumber"  value = '+currentLink+'href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+                for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                paginationHtml += '<li><a class="pageNumber"  value = '+currentLink+' href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
                
                 }
      	  
      	   $('#pagination').append(paginationHtml);
+     	   $('#pagination .pageNumber:last').addClass('active');
+        }else {
+        
+        	$('#pagination').empty();
+     	      paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
+                
+                for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                paginationHtml += '<li><a class="pageNumber"  href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+               
+                }
+               paginationHtml += "<li class='lastPage'><a href='javascript:next();'>&gt;</a></li>";
+              $('#pagination').append(paginationHtml);
+              $('.pageNumber[longdesc=' + pageNum +']').addClass('active').siblings('a.pageNumber.active').removeClass('active');
         }
  }
 
@@ -170,7 +172,8 @@ function next(){
   	//console.log(startFrom);
   	//endTo = startFrom + limit;
   	//console.log(endTo);
-    //$('.pageNumber[longdesc=' + pageNum +']').alert(pageNum);
+    //$('.pageNumber[longdesc=' + pageNum +']').css('display','none');
+  	
     $('#placeholder').empty();
     productsFunc();
   } 

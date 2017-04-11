@@ -412,7 +412,9 @@ textarea {
 .activePageNum {
     background-color: yellow !important;
 }
-
+a.pageNumber.active {
+    background-color: #efdd11;
+}
 
 
 
