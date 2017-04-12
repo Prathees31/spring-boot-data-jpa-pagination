@@ -1,12 +1,13 @@
 var products={};
 var showPerPage ="24";
+console.log(showPerPage);
 var numberOfItems="";
 var numberOfPages="";
-var paginationHtml="";
+
 var	pageNum= 0;
 var sta="";
 var limit="";
-
+//old-method using staic json pagination method
 /*$.get('http://localhost:8080/api/products', function(data) {
 	  
 	  products = data;
@@ -27,6 +28,7 @@ function productsFunc () {
 	    url: "http://localhost:8080/api/products?page="+pageNum+"&size="+showPerPage+""
 	 }).then(function(data) {
 		products=data;
+		console.log(showPerPage);
 		//console.log(data);
 		//console.log(data.content[0].title);
 		numberOfItems =data.totalElements; //getting and declaring the total number of json data in a array
@@ -34,7 +36,7 @@ function productsFunc () {
 	    numberOfPages = data.totalPages;//Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
 	    //console.log(numberOfPages);
 	    limit = showPerPage;
-	    //console.log(limit);
+	    console.log(limit);
 	    sta =0;
 	    goFun(sta,limit);
 	    pagination();
@@ -82,11 +84,11 @@ function goFun(sta,limit) {
     
   }
 }
- function pagination() {
+   function pagination() {
 	 console.log(products.first);
 	 $('#pagination').empty();
 	 console.log('prathees');
-
+	 var paginationHtml="";
  	  /*
  	      paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
             
@@ -109,8 +111,7 @@ function goFun(sta,limit) {
               
               $('#pagination').append(paginationHtml);
               $('#pagination .pageNumber:first').addClass('active');
-        }  else 
-         if(products.last == true && products.first == false){
+        }else if(products.last == true && products.first == false){
         
      	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                 
@@ -134,6 +135,7 @@ function goFun(sta,limit) {
               $('#pagination').append(paginationHtml);
               $('.pageNumber[longdesc=' + pageNum +']').addClass('active').siblings('a.pageNumber.active').removeClass('active');
         }
+	 	
  }
 
 function next(){
@@ -210,14 +212,13 @@ function next(){
 	
 	 
 });*/
-/*$('#selectId').on('change', function () {
+$('#selectId').on('change', function () {
      var selectVal = $("#selectId option:selected").val();
      console.log(selectVal);
-     limit = selectVal;
+     showperPage=selectVal;
      $('#placeholder').empty();
-     goFun(sta,limit);
-     pagination();
-});*/
+     productsFunc();
+});
 
 /*$('#inputFilter input[type=checkbox]').on(click,function() {
 
