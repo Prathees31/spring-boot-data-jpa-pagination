@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+
+import java.util.List;
+
 import org.pratheesgsweb.myfirstApp.models.myfirstAppModels;
 import org.pratheesgsweb.myfirstApp.repositories.myfirstAppRepository;
 
@@ -32,15 +35,20 @@ public class myfirstAppController {
 		return productsRepository.findAll(pageable);
 
 	}
-	@RequestMapping(value="{type}", method=RequestMethod.GET)
-	public ResponseEntity<myfirstAppModels> getproductsById(@PathVariable("type") String type) {
-		myfirstAppModels products = productsRepository.findOne(type);
+	/*@RequestMapping(value="{id}", method=RequestMethod.GET)
+	public ResponseEntity<myfirstAppModels> getproductsById(@PathVariable("id") int id) {
+		myfirstAppModels products = productsRepository.findOne(id);
 		if(products == null) {
 			return new ResponseEntity<myfirstAppModels>(HttpStatus.NOT_FOUND);
 		} else {
 			return new ResponseEntity<myfirstAppModels>(products, HttpStatus.OK);
 		}
-	}
+	}*/
+    @RequestMapping(value = "{type}", method=RequestMethod.GET)
+    public Page<myfirstAppModels> getProductsByType(@PathVariable("type") String type,Pageable pageable) {
+    	return productsRepository.findBytype(type,pageable);
+     
+    }
 	
 	
 	

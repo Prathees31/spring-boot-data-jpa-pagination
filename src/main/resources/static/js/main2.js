@@ -1,12 +1,12 @@
 var products={};
-var showPerPage ="24";
-console.log(showPerPage);
+var showPerPage = 24;
 var numberOfItems="";
 var numberOfPages="";
+var limit;
+var	pageNum = 0;
+var productType ="";
 
-var	pageNum= 0;
-var sta="";
-var limit="";
+
 //old-method using staic json pagination method
 /*$.get('http://localhost:8080/api/products', function(data) {
 	  
@@ -24,31 +24,94 @@ var limit="";
       pagination();
 });*/
 function productsFunc () {
-	$.ajax({
-	    url: "http://localhost:8080/api/products?page="+pageNum+"&size="+showPerPage+""
-	 }).then(function(data) {
-		products=data;
-		console.log(showPerPage);
-		//console.log(data);
-		//console.log(data.content[0].title);
-		numberOfItems =data.totalElements; //getting and declaring the total number of json data in a array
-	    //console.log(numberOfItems);
-	    numberOfPages = data.totalPages;//Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
-	    //console.log(numberOfPages);
-	    limit = showPerPage;
-	    console.log(limit);
-	    sta =0;
-	    goFun(sta,limit);
-	    pagination();
-	});
+	console.log("is empty")
+	console.log(showPerPage);
+	var url;
+	var limit;
+	var sta="";
+	limit = showPerPage;
+	url ="?page="+pageNum+"&size="+limit+"";
+	if(productType.length == 0){
+		
+		$.ajax({
+		    url: "http://localhost:8080/api/products"+url+""
+		 }).then(function(data) {
+			products=data;
+			console.log(limit);
+			//console.log(data);
+			//console.log(data.content[0].title);
+			numberOfItems =data.totalElements; //getting and declaring the total number of json data in a array
+		    //console.log(numberOfItems);
+		    numberOfPages = data.totalPages;//Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
+		    //console.log(numberOfPages);
+		    sta = 0;
+		    goFun(sta,limit);
+		    pagination();
+		});
+	}else {
+		$.ajax({
+		    url: "http://localhost:8080/api/products/"+productType+""+url+""
+		 }).then(function(data) {
+			products=data;
+			console.log(limit);
+			//console.log(data);
+			//console.log(data.content[0].title);
+			numberOfItems =data.totalElements; //getting and declaring the total number of json data in a array
+		    //console.log(numberOfItems);
+		    numberOfPages = data.totalPages;//Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
+		    //console.log(numberOfPages);
+		    sta = 0;
+		    goFun(sta,limit);
+		    pagination();
+		});
+	}
 }
 productsFunc();
+
+
 
 
 function goFun(sta,limit) {
 	console.log(products);
 	console.log(products.content[0].title);
 	console.log(products.first);
+	if(products.numberOfElements < limit){
+		for (var i =sta; i < products.numberOfElements; i++) {
+		    
+	    	var output = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
+	                           "<div class='thumbnail product'>"+
+	                                "<a href='#'>"+
+	                                    "<img class='product-image'" + " " + "src='" + products.content[i].image + "'>"+
+	                                "</a>"+
+	                                 "<span class='sale-percentage'>"+
+	                                  "<b>"+ products.content[i].sale_per+"%"+"</b>"+
+	                                "</span>"+
+	                                "<img class='upcoming_image' src='http://www.textilebuzz.com/image/icons/upcoming.png' alt=''>"+
+	                                "<div class='caption'>"+
+	                                "<h3 class='product-caption'>"+ products.content[i].title +
+	                                "<p class='product-model'>"+products.content[i].model+"</p>"+
+	                                "<ul class='list-inline price'>"+
+	                                "<li>"+
+	                                "<p class='price-old'>"+"INR"+" "+products.content[i].price_old+"</p"+
+	                                "</li>"+
+	                                "<li>"+
+	                                "<p class='price-new'>"+"INR"+" "+products.content[i].price_new+"</p"+
+	                                "</li>"+
+	                                "</ul>"+
+	                                "</div>"+
+	                                "<div class='product-cart'>"+
+	                                "<p class='text-center'>"+
+	                                "<a href='#' class='btn btn-default cart-button' role='button'>"+
+	                                "<i class='fa fa-shopping-cart cart-symbol' aria-hidden='true'>"+"</i>"+" "+" "+
+	                                "Add to Cart"+"</a>"+"</p>"+
+	                                "</div>"+
+	                                "</div>"+
+	                                "</div>";
+	                                $('#placeholder').append(output);
+	    
+	  }
+		
+	} else {
 	for (var i =sta; i < limit; i++) {
     
     	var output = "<div class='col-md-4 col-sm-6 col-lg-3 col-xs-12 result'>" +
@@ -84,6 +147,7 @@ function goFun(sta,limit) {
     
   }
 }
+}
    function pagination() {
 	 console.log(products.first);
 	 $('#pagination').empty();
@@ -112,7 +176,7 @@ function goFun(sta,limit) {
               $('#pagination').append(paginationHtml);
               $('#pagination .pageNumber:first').addClass('active');
         }else if(products.last == true && products.first == false){
-        
+        	console.log("last page");
      	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                 
                 for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
@@ -122,6 +186,25 @@ function goFun(sta,limit) {
      	  
      	   $('#pagination').append(paginationHtml);
      	   $('#pagination .pageNumber:last').addClass('active');
+        }else if(products.last == true && products.first == false && products.numberOfElements < showPerPage){
+            console.log("less products");
+            console.log(products.numberOfElements);
+      	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
+                 
+                 for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                 paginationHtml += '<li><a class="pageNumber"  value = '+currentLink+' href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+                
+                 }
+      	  
+      	   $('#pagination').append(paginationHtml);
+      	   $('#pagination .pageNumber:last').addClass('active');
+         }else if(products.last == true && products.first == true){
+        	for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                paginationHtml += '<li><a class="pageNumber"  href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
+               
+                }
+        	$('#pagination').append(paginationHtml);
+            $('.pageNumber[longdesc=' + pageNum +']').addClass('active').siblings('a.pageNumber.active').removeClass('active');
         }else {
         
         	$('#pagination').empty();
@@ -181,11 +264,23 @@ function next(){
   } 
 
 
-/*$('#typeSelect').on('change', function () {
+$('#typeSelect').on('change', function () {
 	var selectVal = $("#typeSelect option:selected").val();
 	console.log(selectVal);
+	productType = selectVal;
+	pageNum= 0;
+	if(productType == "all"){
+		productType ="";
+		$('#placeholder').empty();
+	    productsFunc();
+	}else{
+		$('#placeholder').empty();
+	    productsFunc();
+	}
+	
+	
 	 // body...
-	 var kurti = $(products).filter(function(index) {
+	 /*var kurti = $(products).filter(function(index) {
 	 	return products[index].type == selectVal;
 	 });
 	 console.log(kurti);
@@ -207,15 +302,16 @@ function next(){
    	 	goFun(sta,limit);
    	 	pagination();
 
-	 } 
+	 } */
 
 	
 	 
-});*/
+});
 $('#selectId').on('change', function () {
      var selectVal = $("#selectId option:selected").val();
      console.log(selectVal);
-     showperPage=selectVal;
+     showPerPage=selectVal;
+     pageNum=0;
      $('#placeholder').empty();
      productsFunc();
 });
