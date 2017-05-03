@@ -5,6 +5,7 @@ var numberOfPages="";
 var limit;
 var	pageNum = 0;
 var productType ="";
+var sort="";
 
 
 //old-method using staic json pagination method
@@ -30,7 +31,7 @@ function productsFunc () {
 	var limit;
 	var sta="";
 	limit = showPerPage;
-	url ="?page="+pageNum+"&size="+limit+"";
+	url ="?page="+pageNum+"&size="+limit+"&sort="+sort+"";
 	if(productType.length == 0){
 		
 		$.ajax({
@@ -47,6 +48,7 @@ function productsFunc () {
 		    sta = 0;
 		    goFun(sta,limit);
 		    pagination();
+		    showingResult();
 		});
 	}else {
 		$.ajax({
@@ -63,6 +65,7 @@ function productsFunc () {
 		    sta = 0;
 		    goFun(sta,limit);
 		    pagination();
+		    showingResult();
 		});
 	}
 }
@@ -84,7 +87,7 @@ function goFun(sta,limit) {
 	                                    "<img class='product-image'" + " " + "src='" + products.content[i].image + "'>"+
 	                                "</a>"+
 	                                 "<span class='sale-percentage'>"+
-	                                  "<b>"+ products.content[i].sale_per+"%"+"</b>"+
+	                                  "<b>"+ products.content[i].salePer+"%"+"</b>"+
 	                                "</span>"+
 	                                "<img class='upcoming_image' src='http://www.textilebuzz.com/image/icons/upcoming.png' alt=''>"+
 	                                "<div class='caption'>"+
@@ -92,10 +95,10 @@ function goFun(sta,limit) {
 	                                "<p class='product-model'>"+products.content[i].model+"</p>"+
 	                                "<ul class='list-inline price'>"+
 	                                "<li>"+
-	                                "<p class='price-old'>"+"INR"+" "+products.content[i].price_old+"</p"+
+	                                "<p class='price-old'>"+"INR"+" "+products.content[i].priceOld+"</p"+
 	                                "</li>"+
 	                                "<li>"+
-	                                "<p class='price-new'>"+"INR"+" "+products.content[i].price_new+"</p"+
+	                                "<p class='price-new'>"+"INR"+" "+products.content[i].priceNew+"</p"+
 	                                "</li>"+
 	                                "</ul>"+
 	                                "</div>"+
@@ -120,7 +123,7 @@ function goFun(sta,limit) {
                                     "<img class='product-image'" + " " + "src='" + products.content[i].image + "'>"+
                                 "</a>"+
                                  "<span class='sale-percentage'>"+
-                                  "<b>"+ products.content[i].sale_per+"%"+"</b>"+
+                                  "<b>"+ products.content[i].salePer+"%"+"</b>"+
                                 "</span>"+
                                 "<img class='upcoming_image' src='http://www.textilebuzz.com/image/icons/upcoming.png' alt=''>"+
                                 "<div class='caption'>"+
@@ -128,10 +131,10 @@ function goFun(sta,limit) {
                                 "<p class='product-model'>"+products.content[i].model+"</p>"+
                                 "<ul class='list-inline price'>"+
                                 "<li>"+
-                                "<p class='price-old'>"+"INR"+" "+products.content[i].price_old+"</p"+
+                                "<p class='price-old'>"+"INR"+" "+products.content[i].priceOld+"</p"+
                                 "</li>"+
                                 "<li>"+
-                                "<p class='price-new'>"+"INR"+" "+products.content[i].price_new+"</p"+
+                                "<p class='price-new'>"+"INR"+" "+products.content[i].priceNew+"</p"+
                                 "</li>"+
                                 "</ul>"+
                                 "</div>"+
@@ -153,6 +156,7 @@ function goFun(sta,limit) {
 	 $('#pagination').empty();
 	 console.log('prathees');
 	 var paginationHtml="";
+	 
  	  /*
  	      paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
             
@@ -187,8 +191,8 @@ function goFun(sta,limit) {
      	   $('#pagination').append(paginationHtml);
      	   $('#pagination .pageNumber:last').addClass('active');
         }else if(products.last == true && products.first == false && products.numberOfElements < showPerPage){
-            console.log("less products");
-            console.log(products.numberOfElements);
+            //console.log("less products");
+            //console.log(products.numberOfElements);
       	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                  
                  for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
@@ -220,7 +224,12 @@ function goFun(sta,limit) {
         }
 	 	
  }
-
+ function showingResult(){
+	 $('#showingResult').empty();
+	 var showingResultHtml="";
+	 showingResultHtml ='<p class="pull-right result-page">Showing 1 to '+products.content.length+' of '+products.totalElements+'</p>';
+	 $('#showingResult').append(showingResultHtml);
+ }
 function next(){
     console.log(pageNum);
     pageNum += 1;
@@ -306,6 +315,13 @@ $('#typeSelect').on('change', function () {
 
 	
 	 
+});
+$('#sortSelect').on('change', function () {
+	var selectVal = $("#sortSelect option:selected").val();
+	console.log(selectVal);
+	sort = selectVal;
+	$('#placeholder').empty();
+	 productsFunc();
 });
 $('#selectId').on('change', function () {
      var selectVal = $("#selectId option:selected").val();
