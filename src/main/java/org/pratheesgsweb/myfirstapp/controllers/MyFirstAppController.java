@@ -1,5 +1,5 @@
 package org.pratheesgsweb.myfirstapp.controllers;
-//import java.util.List;
+import java.util.List;
 
 //import javax.validation.Valid;
 
@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 //import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -49,8 +50,18 @@ public class MyFirstAppController {
     	return productsRepository.findBytype(type,pageable);
      
     }
-	
-	
+    @RequestMapping(value="listtype",method=RequestMethod.GET)
+	public List<String> getDistinctBytype() {
+		return productsRepository.findDistBytype();
+    }
+    @RequestMapping(value="listcount",method=RequestMethod.GET)
+	public long getAllCount() {
+		return productsRepository.count();
+    }
+    @RequestMapping(value="listbyprice",method=RequestMethod.GET)
+	public Page<MyFirstAppModels> getByPriceNewBetween(@RequestParam("start")Integer start, @RequestParam("end")Integer end,Pageable pageable) {
+		return productsRepository.findByPriceNewBetween(start,end,pageable);
+    }
 	
 	
 }

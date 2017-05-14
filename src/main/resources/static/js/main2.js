@@ -1,11 +1,15 @@
 var products={};
+var productTypes={};
 var showPerPage = 24;
 var numberOfItems="";
 var numberOfPages="";
 var limit;
 var	pageNum = 0;
 var productType ="";
-var sort="";
+var sort= "";
+var start= 0;
+var end = 0;
+console.log(start);
 
 
 //old-method using staic json pagination method
@@ -28,12 +32,15 @@ function productsFunc () {
 	console.log("is empty")
 	console.log(showPerPage);
 	var url;
+	var urlOne;
 	var limit;
 	var sta="";
 	limit = showPerPage;
 	url ="?page="+pageNum+"&size="+limit+"&sort="+sort+"";
-	if(productType.length == 0){
+	urlOne ="page="+pageNum+"&size="+limit+"&sort="+sort+"";
+	if(productType.length == 0 && start == 0 && end == 0){
 		
+		console.log("the type function working");
 		$.ajax({
 		    url: "http://localhost:8080/api/products"+url+""
 		 }).then(function(data) {
@@ -50,7 +57,26 @@ function productsFunc () {
 		    pagination();
 		    showingResult();
 		});
-	}else {
+	}else if( (start != 0 && end !=0 && productType.length == 0) || (start != 0 && end != 0 && prdouctType.length != 0)){
+		console.log("the price function working");
+		
+		$.ajax({
+		    url: "http://localhost:8080/api/products/listbyprice?start="+start+"&end="+end+"&"+urlOne+""
+		 }).then(function(data) {
+			products=data;
+			console.log(limit);
+			//console.log(data);
+			//console.log(data.content[0].title);
+			numberOfItems =data.totalElements; //getting and declaring the total number of json data in a array
+		    //console.log(numberOfItems);
+		    numberOfPages = data.totalPages;//Math.ceil(numberOfItems/showPerPage); //calculating total number of pages
+		    //console.log(numberOfPages);
+		    sta = 0;
+		    goFun(sta,limit);
+		    pagination();
+		    showingResult();
+		});
+		} else {
 		$.ajax({
 		    url: "http://localhost:8080/api/products/"+productType+""+url+""
 		 }).then(function(data) {
@@ -156,6 +182,8 @@ function goFun(sta,limit) {
 	 $('#pagination').empty();
 	 console.log('prathees');
 	 var paginationHtml="";
+	 var currentPage = products.number;
+	 console.log(currentPage);
 	 
  	  /*
  	      paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
@@ -168,10 +196,16 @@ function goFun(sta,limit) {
            $('#pagination').html(paginationHtml);
            */
             
+	 var paginationStart = currentPage;
+	 if ( paginationStart > 4 ){
+		 paginationStart = paginationStart - 4;
+	 }else{
+		 paginationStart = 0;
+	 }
 	 		
 	 	if(products.first == true && products.last == false) {
 	 		  
-     	      for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+     	      for(var currentLink = paginationStart; (currentPage+5) > currentLink && currentLink < products.totalPages; currentLink++){
                 paginationHtml += '<li><a class="pageNumber"  value='+ currentLink+' href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
      	      }
      	      
@@ -183,7 +217,7 @@ function goFun(sta,limit) {
         	console.log("last page");
      	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                 
-                for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                for(var currentLink = paginationStart; (currentPage+5) > currentLink && currentLink < products.totalPages; currentLink++){
                 paginationHtml += '<li><a class="pageNumber"  value = '+currentLink+' href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
                
                 }
@@ -195,7 +229,7 @@ function goFun(sta,limit) {
             //console.log(products.numberOfElements);
       	   paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                  
-                 for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                 for(var currentLink = paginationStart; (currentPage+5) > currentLink && currentLink < products.totalPages; currentLink++){
                  paginationHtml += '<li><a class="pageNumber"  value = '+currentLink+' href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
                 
                  }
@@ -203,7 +237,7 @@ function goFun(sta,limit) {
       	   $('#pagination').append(paginationHtml);
       	   $('#pagination .pageNumber:last').addClass('active');
          }else if(products.last == true && products.first == true){
-        	for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+        	for(var currentLink = paginationStart; (currentPage+5) > currentLink && currentLink < products.totalPages; currentLink++){
                 paginationHtml += '<li><a class="pageNumber"  href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
                
                 }
@@ -214,7 +248,7 @@ function goFun(sta,limit) {
         	$('#pagination').empty();
      	      paginationHtml = "<li id='firstPage'><a href='javascript:previous();'>&lt;</a></li>"
                 
-                for(var currentLink = 0; numberOfPages > currentLink; currentLink++){
+                for(var currentLink = paginationStart; (currentPage+5) > currentLink && currentLink < products.totalPages; currentLink++){
                 paginationHtml += '<li><a class="pageNumber"  href="javascript:goToPage(' + currentLink +')" longdesc="' + currentLink +'">'+ (currentLink + 1) +'</a></li>';
                
                 }
@@ -227,7 +261,20 @@ function goFun(sta,limit) {
  function showingResult(){
 	 $('#showingResult').empty();
 	 var showingResultHtml="";
-	 showingResultHtml ='<p class="pull-right result-page">Showing 1 to '+products.content.length+' of '+products.totalElements+'</p>';
+	 var start= (products.number * products.size)+1;
+	 var end = start+products.numberOfElements-1;
+	 console.log(isNaN(products.size - products.numberOfElements));
+	 /*if (products.size > products.numberOfElements){
+		 end= ((products.number + 1) * products.size)-(products.size-products.numberOfElements);
+		 
+		
+		 console.log("less than size");
+		 
+	 }else {
+		end = (products.number + 1) * products.size;
+	 }
+	 */
+	 showingResultHtml ='<p class="pull-right result-page">Showing '+start+' to '+end+' of '+products.totalElements+'</p>';
 	 $('#showingResult').append(showingResultHtml);
  }
 function next(){
@@ -320,8 +367,16 @@ $('#sortSelect').on('change', function () {
 	var selectVal = $("#sortSelect option:selected").val();
 	console.log(selectVal);
 	sort = selectVal;
-	$('#placeholder').empty();
-	 productsFunc();
+	//$('#placeholder').empty();
+	 //productsFunc();
+	 if(selectVal == "default"){
+			sort ="";
+			$('#placeholder').empty();
+		    productsFunc();
+		}else{
+			$('#placeholder').empty();
+		    productsFunc();
+		}
 });
 $('#selectId').on('change', function () {
      var selectVal = $("#selectId option:selected").val();
@@ -332,7 +387,38 @@ $('#selectId').on('change', function () {
      productsFunc();
 });
 
-/*$('#inputFilter input[type=checkbox]').on(click,function() {
+ function typeFun () {
+	$.ajax({
+	    url: "http://localhost:8080/api/products/listtype"
+	 }).then(function(data) {
+		productTypes=data;
+		console.log(productTypes);
+		for (var i = 0; i < productTypes.length; i++) {
+			var typeOutput="<option value="+productTypes[i]+">"+productTypes[i]+"</option>";
+			$('#typeSelect').append(typeOutput);
+		}
+		
+	});
+	
+}
+typeFun();
 
-
-});*/
+$('#inputFilter input').on('change', function() {
+	   var selectVal=$('input[name="priceRange"]:checked', '#inputFilter').val();
+	   if(selectVal == 1){
+		   start = 250;
+		   end   = 500;
+		   $('#placeholder').empty();
+		   productsFunc();
+	   }else if(selectVal == 2){
+		   start = 500;
+		   end   = 750;
+		   $('#placeholder').empty();
+		   productsFunc();
+	   }else if(selectVal == 3){
+		   start = 750;
+		   end   = 1000;
+		   $('#placeholder').empty();
+		   productsFunc();
+	   }
+});

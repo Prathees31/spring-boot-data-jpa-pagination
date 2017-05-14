@@ -407,7 +407,7 @@ textarea {
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(23, 22, 22);
 }
 .activePageNum {
     background-color: yellow !important;
@@ -415,10 +415,113 @@ textarea {
 a.pageNumber.active {
     background-color: #efdd11;
 }
+#content {
+    position: relative;
+    z-index: 2;
+    padding: 20px 20px 0 20px;
+    background-color: transparent;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+                  <!-- Product Page Css Starting -->
 
 
-
-
+.product-content {
+	margin-left: 20px;
+}
+.product-detail-image {
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 2px 15px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    padding: 15px;
+    padding-bottom: 5px;
+    background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+    opacity: 1;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    margin-top: 2px;
+}
+.product-heading-title {
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 400;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-options {
+    background-color: transparent;
+    overflow: hidden;
+}
+.description {
+    display: block;
+    line-height: 17px;
+}
+.product-detail-list>div>ul , .product-detail-list>div>div {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(244, 244, 244);
+}
+.list-unstyled {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+}
+.product-options>div , .product-options>ul{
+    margin-bottom: 15px;
+}
+.product-views-count {
+    float: right;
+}
+.product_view_h1 {
+    display: inline;
+    font-size: 16px;
+}
+.attribute {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid #E4E4E4;
+    border-left: 1px solid #E4E4E4;
+}
+.stock-style {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.product-detail-list>div>.price {
+    display: block;
+}
+.product-detail-list .product-price {
+    font-weight: 400;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-size: 25px;
+    float: left;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+}
 
 
 
